@@ -1,5 +1,7 @@
 # WeChat
 
+微信小程序Reading&Movie源码，原文地址：https://www.jianshu.com/nb/12176427
+
 ### WeChat_01
 
 介绍小程序开发的前期准备工作和微信开发者工具的用法，最后完成项目的开屏页，原文地址：[WeChat 从一个简单的“Welcome”页面来开启小程序之旅吧](https://www.jianshu.com/p/896e91673f4d)
