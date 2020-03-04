@@ -25,3 +25,9 @@
 对小程序的模块、模板和缓存进行讲解，依旧是在文章列表页上进行修改，原文地址：[WeChat 模块、模板与缓存](https://www.jianshu.com/p/1c7fa58b41f6)
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-4135adb04a3463bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="350">
+
+### WeChat_05
+
+文章详情页，原文地址：[WeChat 文章详情页](https://www.jianshu.com/p/c09354787b57)
+
+<img src="https://upload-images.jianshu.io/upload_images/1662958-60d8e82d0e620d11.png?imageMogr2/auto-orient/strip|imageView2/2/w/402/format/webp" width="350">
