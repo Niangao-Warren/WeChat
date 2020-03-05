@@ -28,6 +28,6 @@
 
 ### WeChat_05
 
-文章详情页，原文地址：[WeChat 文章详情页](https://www.jianshu.com/p/c09354787b57)
+文章详情页，并实现收藏、点赞功能，原文地址：[WeChat 文章详情页](https://www.jianshu.com/p/c09354787b57)
 
-<img src="https://upload-images.jianshu.io/upload_images/1662958-60d8e82d0e620d11.png?imageMogr2/auto-orient/strip|imageView2/2/w/402/format/webp" width="350">
+<img src="https://upload-images.jianshu.io/upload_images/1662958-3ca05cacac45628e.gif?imageMogr2/auto-orient/strip" width="350">
