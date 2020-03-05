@@ -31,3 +31,9 @@
 文章详情页，并实现收藏、点赞功能，原文地址：[WeChat 文章详情页](https://www.jianshu.com/p/c09354787b57)
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-3ca05cacac45628e.gif?imageMogr2/auto-orient/strip" width="350">
+
+### WeChat_06
+
+文章评论页，实现图片预览功能，原文地址：[WeChat 文章评论页（一）](https://www.jianshu.com/p/e462401e2ab4)
+
+<img src="https://upload-images.jianshu.io/upload_images/1662958-208f31d02c7a3eff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="350">
