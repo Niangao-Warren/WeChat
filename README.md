@@ -37,3 +37,9 @@
 文章评论页，实现图片预览功能，原文地址：[WeChat 文章评论页（一）](https://www.jianshu.com/p/e462401e2ab4)
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-208f31d02c7a3eff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="350">
+
+### WeChat_07
+
+文章评论页，实现文本、图片评论功能，原文地址：[WeChat 文章评论页（二）](https://www.jianshu.com/p/c2d267bedef8)
+
+<img src="https://upload-images.jianshu.io/upload_images/1662958-004947028b16e7cf.gif?imageMogr2/auto-orient/strip" width="350">
