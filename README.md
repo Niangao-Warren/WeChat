@@ -43,3 +43,7 @@
 文章评论页，实现文本、图片评论功能，原文地址：[WeChat 文章评论页（二）](https://www.jianshu.com/p/c2d267bedef8)
 
 <img src="https://upload-images.jianshu.io/upload_images/1662958-004947028b16e7cf.gif?imageMogr2/auto-orient/strip" width="350">
+
+### WeChat_08
+
+文章评论页，实现语音播放暂停功能，原文地址：[WeChat 文章评论页（三）](https://www.jianshu.com/p/62cc4243e858)

@@ -6,7 +6,6 @@ class DBPost {
     this.storageKeyName = "postList"
     this.postId = postId
   }
-
   // 得到全部文章信息
   getAllPostData() {
     let res = wx.getStorageSync(this.storageKeyName)
@@ -15,12 +14,10 @@ class DBPost {
     }
     return res
   }
-
   // 保存或者更新缓存数据
   execSetStorageSync(data) {
     wx.setStorageSync(this.storageKeyName, data)
   }
-
   // 获取指定id的文章数据
   getPostItemById() {
     let postsData = this.getAllPostData()
@@ -35,18 +32,15 @@ class DBPost {
       }
     }
   }
-
   //收藏
   collect() {
     return this.updatePostData("collect")
   }
-
   //点赞
   up() {
     let data = this.updatePostData("up")
     return data
   }
-
   //更新本地的点赞、评论信息、收藏、阅读量
   updatePostData(category, newComment) {
     let itemData = this.getPostItemById(),
@@ -89,7 +83,6 @@ class DBPost {
     this.execSetStorageSync(allPostData)
     return postData
   }
-
   // 获取文章的评论数据
   getCommentData() {
     let itemData = this.getPostItemById().data
@@ -104,7 +97,6 @@ class DBPost {
     }
     return itemData.comments
   }
-
   compareWithTime(value1, value2) {
     let flag = parseFloat(value1.create_time) - parseFloat(value2.create_time);
     if (flag < 0) {

@@ -2,7 +2,6 @@
 import { DBPost } from "../../../db/DBPost"
 Page({
   data: {},
-
   onLoad: function(options) {
     let postId = options.id
     this.dbPost = new DBPost(postId)
@@ -11,13 +10,11 @@ Page({
       post: this.postData
     })
   },
-
   onReady: function() {
     wx.setNavigationBarTitle({
       title: this.postData.title
     })
   },
-
   onCollectionTap: function(event) {
     let newData = this.dbPost.collect()
     // 重新绑定数据。注意，不要将整个newData全部作为setData的参数，
@@ -34,7 +31,6 @@ Page({
       mask: true
     })
   },
-
   onUpTap: function(event) {
     let newData = this.dbPost.up()
     this.setData({
