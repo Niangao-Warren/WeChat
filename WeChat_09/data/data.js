@@ -1,4 +1,4 @@
-var postList = [
+let postList = [
   {
     date: "Jan 28 2020",
     title: "小时候的冰棍儿与雪糕",
@@ -43,10 +43,10 @@ var postList = [
     postId: 2,
     music: {
       url:
-        "https://i.y.qq.com/v8/playsong.html?songid=228073051&source=yqq#wechat_redirect",
-      title: "以冬 淅沥",
+        "http://music.163.com/song/media/outer/url?id=26116001.mp3",
+      title: "Aimer 星の消えた夜に",
       coverImg:
-        "https://y.gtimg.cn/music/photo_new/T002R300x300M0000033Mb1c0f4BSw.jpg?max_age=2592000"
+        "http://p2.music.126.net/0vd5qhfhR6Y3abjyLrd9UA==/109951163627181722.jpg"
     },
     collectionStatus: true,
     upStatus: true,
@@ -119,10 +119,10 @@ var postList = [
     postId: 3,
     music: {
       url:
-        "https://i.y.qq.com/v8/playsong.html?songid=248461754&source=yqq#wechat_redirect",
-      title: "以冬 音逐江湖",
+        "http://music.163.com/song/media/outer/url?id=1392705961.mp3",
+      title: "倖田來未 Guess Who Is Back",
       coverImg:
-        "https://y.gtimg.cn/music/photo_new/T002R300x300M000003R1tfP3sM10d.jpg?max_age=2592000"
+        "http://p1.music.126.net/clbNCJRq3jnQY96E7jwb8A==/109951164382010042.jpg"
     },
     collectionStatus: false,
     upStatus: false,
@@ -146,10 +146,10 @@ var postList = [
     postId: 4,
     music: {
       url:
-        "https://i.y.qq.com/v8/playsong.html?songid=203812978&source=yqq#wechat_redirect",
+        "http://music.163.com/song/media/outer/url?id=423703393.mp3",
       title: "Rainton桐 最后的旅行",
       coverImg:
-        "https://y.gtimg.cn/music/photo_new/T001R300x300M000003ceG8p14b9YF.jpg?max_age=2592000"
+        "http://p2.music.126.net/8qhWDWoNejyMcAAwAm2pNA==/17752714742397400.jpg"
     },
     collectionStatus: false,
     upStatus: false,

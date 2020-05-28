@@ -1,4 +1,4 @@
-var postList = [
+let postList = [
   {
     date: "Jan 28 2020",
     title: "小时候的冰棍儿与雪糕",
@@ -16,10 +16,10 @@ var postList = [
     postId: 1,
     music: {
       url:
-        "https://i.y.qq.com/v8/playsong.html?songid=213897623&source=yqq#wechat_redirect",
-      title: "以冬 春衫年少",
+        "http://music.163.com/song/media/outer/url?id=1420533652.mp3",
+      title: "milet Tell me",
       coverImg:
-        "https://y.gtimg.cn/music/photo_new/T002R300x300M000000RtJCG1dt7hp.jpg?max_age=2592000"
+        "http://p1.music.126.net/7uxnw0cMO74F6EnI_rycmg==/109951164672438546.jpg"
     },
     collectionStatus: true,
     upStatus: false,
