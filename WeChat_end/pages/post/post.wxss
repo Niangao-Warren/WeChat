@@ -1,0 +1,13 @@
+@import "post-item/post-item-tpl.wxss";
+.container {
+  background-color: #e6e6e6;
+  padding-bottom: 30rpx;
+}
+swiper {
+  width: 100%;
+  height: 600rpx;
+}
+swiper image {
+  width: 100%;
+  height: 600rpx;
+}

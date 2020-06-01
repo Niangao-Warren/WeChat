@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/post/post",
+    "pages/post/post-detail/post-detail",
+    "pages/post/post-comment/post-comment",
+    "pages/movie/movie",
+    "pages/movie/more-movie/more-movie",
+    "pages/movie/movie-detail/movie-detail"
+  ],
+  "requiredBackgroundModes": ["audio", "location"],
+  "window": {
+    "navigationBarBackgroundColor": "#4A6141"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#8a8a8a",
+    "selectedColor": "#405f80",
+    "list": [
+      {
+        "pagePath": "pages/post/post",
+        "text": "阅读",
+        "iconPath": "images/tab/read.png",
+        "selectedIconPath": "images/tab/read_active.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "光影",
+        "iconPath": "images/tab/movies.png",
+        "selectedIconPath": "images/tab/movies_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "sitemapLocation": "sitemap.json"
+}
