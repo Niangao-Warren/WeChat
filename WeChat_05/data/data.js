@@ -1,4 +1,4 @@
-var postList = [
+let postList = [
   {
     date: "Jan 28 2020",
     title: "小时候的冰棍儿与雪糕",
@@ -35,7 +35,7 @@ var postList = [
       "小时候，家的后面有一条铁路。听说从南方北上的火车都必须经过这条铁路。火车大多在晚上经过，但也不定时只有在夜深人静的时候，火车的声音才能从远方传来...",
     readingNum: 85,
     collectionNum: 12,
-    commentNum: 23,
+    commentNum: 4,
     author: "林白衣",
     dateTime: "24小时前",
     detail:
@@ -43,10 +43,10 @@ var postList = [
     postId: 2,
     music: {
       url:
-        "https://i.y.qq.com/v8/playsong.html?songid=228073051&source=yqq#wechat_redirect",
-      title: "以冬 淅沥",
+        "http://music.163.com/song/media/outer/url?id=26116001.mp3",
+      title: "Aimer 星の消えた夜に",
       coverImg:
-        "https://y.gtimg.cn/music/photo_new/T002R300x300M0000033Mb1c0f4BSw.jpg?max_age=2592000"
+        "http://p2.music.126.net/0vd5qhfhR6Y3abjyLrd9UA==/109951163627181722.jpg"
     },
     collectionStatus: true,
     upStatus: true,
@@ -119,15 +119,15 @@ var postList = [
     postId: 3,
     music: {
       url:
-        "https://i.y.qq.com/v8/playsong.html?songid=248461754&source=yqq#wechat_redirect",
-      title: "以冬 音逐江湖",
+        "http://music.163.com/song/media/outer/url?id=1392705961.mp3",
+      title: "倖田來未 Guess Who Is Back",
       coverImg:
-        "https://y.gtimg.cn/music/photo_new/T002R300x300M000003R1tfP3sM10d.jpg?max_age=2592000"
+        "http://p1.music.126.net/clbNCJRq3jnQY96E7jwb8A==/109951164382010042.jpg"
     },
     collectionStatus: false,
     upStatus: false,
     upNum: 9,
-    conments: []
+    comments: []
   },
   {
     date: "Jan 29 2020",
@@ -138,7 +138,7 @@ var postList = [
       "绘梨衣解开手帕，夕阳如海潮般涌入她的视野，巨大的日轮已经触及了海面，数千万吨海水在她脚下缓缓地荡漾，潮水在黑色的山崖下碎成白色的水花...",
     readingNum: 126,
     collectionNum: 36,
-    commentNum: 28,
+    commentNum: 1,
     author: "路明非",
     dateTime: "24小时前",
     detail:
@@ -146,15 +146,30 @@ var postList = [
     postId: 4,
     music: {
       url:
-        "https://i.y.qq.com/v8/playsong.html?songid=203812978&source=yqq#wechat_redirect",
+        "http://music.163.com/song/media/outer/url?id=423703393.mp3",
       title: "Rainton桐 最后的旅行",
       coverImg:
-        "https://y.gtimg.cn/music/photo_new/T001R300x300M000003ceG8p14b9YF.jpg?max_age=2592000"
+        "http://p2.music.126.net/8qhWDWoNejyMcAAwAm2pNA==/17752714742397400.jpg"
     },
     collectionStatus: false,
     upStatus: false,
     upNum: 9,
-    conments: []
+    comments: [
+      {
+        username: "路明非",
+        avatar: "/images/avatar/avatar-3.png",
+        create_time: "1484723344",
+        content: {
+          txt: "那一年的毕业季，我们挥挥手，来不及说再见，就踏上了远行的火车",
+          img: [
+            "/images/comment/train-1.jpg",
+            "/images/comment/train-2.jpg",
+            "/images/comment/train-3.jpg"
+          ],
+          audio: null
+        }
+      },
+    ]
   }
 ];
 

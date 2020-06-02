@@ -35,7 +35,7 @@ let postList = [
       "小时候，家的后面有一条铁路。听说从南方北上的火车都必须经过这条铁路。火车大多在晚上经过，但也不定时只有在夜深人静的时候，火车的声音才能从远方传来...",
     readingNum: 85,
     collectionNum: 12,
-    commentNum: 23,
+    commentNum: 4,
     author: "林白衣",
     dateTime: "24小时前",
     detail:
@@ -127,19 +127,19 @@ let postList = [
     collectionStatus: false,
     upStatus: false,
     upNum: 9,
-    conments: []
+    comments: []
   },
   {
-    date: "Jan 29 2020",
-    title: "我们都是小怪兽，总有一天会被正义的奥特曼杀死",
+    date: "May 6 2012",
+    title: "东京爱情故事·终点",
     postImg: "/images/post/post-2.jpg",
     avatar: "/images/avatar/avatar-2.png",
     content:
       "绘梨衣解开手帕，夕阳如海潮般涌入她的视野，巨大的日轮已经触及了海面，数千万吨海水在她脚下缓缓地荡漾，潮水在黑色的山崖下碎成白色的水花...",
-    readingNum: 126,
-    collectionNum: 36,
-    commentNum: 28,
-    author: "路明非",
+    readingNum: 1260,
+    collectionNum: 236,
+    commentNum: 1,
+    author: "江南",
     dateTime: "24小时前",
     detail:
       "绘梨衣解开手帕，夕阳如海潮般涌入她的视野，巨大的日轮已经触及了海面，数千万吨海水在她脚下缓缓地荡漾，潮水在黑色的山崖下碎成白色的水花。风吹着数万公顷的森林，傍晚的树林远看也像海，苍红色的大海，成千上万的树梢随风摇曳，组成层层叠叠的波涛。小城小镇沿着曲折的海岸线分布，路明非给绘梨衣一一地讲那些小镇的名字，山崖下方就是梅津寺町，稍远处的是山前町、月下城町和松隆町，再远处的路明非就叫不出名字了...",
@@ -153,8 +153,19 @@ let postList = [
     },
     collectionStatus: false,
     upStatus: false,
-    upNum: 9,
-    conments: []
+    upNum: 39,
+    comments: [
+      {
+        username: "路明非",
+        avatar: "/images/avatar/avatar-3.png",
+        create_time: "1484723344",
+        content: {
+          txt: "我们都是小怪兽,最后都会被正义的奥特曼杀死",
+          img: [],
+          audio: null
+        }
+      },
+    ]
   }
 ];
 

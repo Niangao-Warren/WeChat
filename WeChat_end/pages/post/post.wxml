@@ -3,13 +3,13 @@
 <view class="container">
   <swiper catchtap="onSwiperTap" indicator-dots="true" autoplay="true" interval="5000" circular="true">
     <swiper-item>
-      <image src="/images/post/post-1@text.jpg" data-postId="3" />
+      <image src="/images/post/tab-1.jpg" data-postId="3" />
     </swiper-item>
     <swiper-item>
-      <image src="/images/post/post-2@text.jpg" data-postId="2" />
+      <image src="/images/post/tab-2.jpg" data-postId="2" />
     </swiper-item>
     <swiper-item>
-      <image src="/images/post/post-3@text.jpg" data-postId="1" />
+      <image src="/images/post/tab-3.jpg" data-postId="1" />
     </swiper-item>
   </swiper>
 

@@ -35,7 +35,7 @@ let postList = [
       "小时候，家的后面有一条铁路。听说从南方北上的火车都必须经过这条铁路。火车大多在晚上经过，但也不定时只有在夜深人静的时候，火车的声音才能从远方传来...",
     readingNum: 85,
     collectionNum: 12,
-    commentNum: 23,
+    commentNum: 4,
     author: "林白衣",
     dateTime: "24小时前",
     detail:
@@ -127,7 +127,7 @@ let postList = [
     collectionStatus: false,
     upStatus: false,
     upNum: 9,
-    conments: []
+    comments: []
   },
   {
     date: "Jan 29 2020",
@@ -138,7 +138,7 @@ let postList = [
       "绘梨衣解开手帕，夕阳如海潮般涌入她的视野，巨大的日轮已经触及了海面，数千万吨海水在她脚下缓缓地荡漾，潮水在黑色的山崖下碎成白色的水花...",
     readingNum: 126,
     collectionNum: 36,
-    commentNum: 28,
+    commentNum: 1,
     author: "路明非",
     dateTime: "24小时前",
     detail:
@@ -154,7 +154,22 @@ let postList = [
     collectionStatus: false,
     upStatus: false,
     upNum: 9,
-    conments: []
+    comments: [
+      {
+        username: "路明非",
+        avatar: "/images/avatar/avatar-3.png",
+        create_time: "1484723344",
+        content: {
+          txt: "那一年的毕业季，我们挥挥手，来不及说再见，就踏上了远行的火车",
+          img: [
+            "/images/comment/train-1.jpg",
+            "/images/comment/train-2.jpg",
+            "/images/comment/train-3.jpg"
+          ],
+          audio: null
+        }
+      },
+    ]
   }
 ];
 
